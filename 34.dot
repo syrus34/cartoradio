@@ -213,6 +213,7 @@ digraph HeraultTelecom_WifiMax {
 	tour_pigeonnier -> pardailhan;
 	tour_pigeonnier -> pardailhan_2;
 	
+	vailhauques [color=red];
 	vailhauques -> murles;
 	vacquieres -> claret;
 	vezoles -> tg_combesalat;
