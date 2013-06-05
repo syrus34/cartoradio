@@ -1,7 +1,8 @@
 digraph HeraultTelecom_WifiMax {
+	aigne [style=filled,color=red,fillcolor=yellow];
 	aigne -> barfleur;
 	aigne -> le_pech;
-	aigne -> tg_pardailhan;
+	aigne -> saint_jean_minervois;
 	adissan [color=red];
 	adissan -> plaissan;
 	autignac -> puech_masse_fouzilhon;
@@ -14,16 +15,24 @@ digraph HeraultTelecom_WifiMax {
 	avene -> servies;
 	babeau -> bouldoux;
 	barbarie -> minerve;
-	barbarie -> vellieux;
-	bedarieux_F [color=red];
-	bedarieux_F -> bedarieux_2;
-	bedarieux_F -> carlencas_et_levas;
+
+	barbarie -> saint_pons_candade;
+	barbarie -> corniou;
+	barbarie -> pardailhan_2;
+	barbarie -> tg_verreries_de_moussan;
+	
+	bedarieux [color=red];
+	bedarieux -> bedarieux_2;
+	bedarieux -> carlencas_et_levas;
 	bedarieux_2 -> taussac;	
 	boisset -> boisset_2;
 	boisset -> cassagnoles;
 	boisset -> cassagnoles_2;
 	boisset -> saussenac;
 	brissac -> montoulieu;
+	
+	capestang [style=filled,fillcolor=yellow];
+
 	carlencas_et_levas -> brenas;
 	carlencas_et_levas -> pezenes_les_mines;
 	carlencas_et_levas -> dio_et_vacquieres;
@@ -37,8 +46,7 @@ digraph HeraultTelecom_WifiMax {
 	castelnau_de_guers -> lezignan_la_cebe;
 	castelnau_le_lez -> mauguio;
 	castelnau_le_lez -> le_cres;
-	castelnau_le_lez -> saint_nazaire_de_pezan;
-	castelnau_le_lez -> saint_genies_des_mourques;
+	castelnau_le_lez -> saint_christol;
 	castries -> saint_christol;
 	castries -> heraut_telecom;
 	causse_de_la_selle [color=red];
@@ -56,6 +64,7 @@ digraph HeraultTelecom_WifiMax {
 	colombiers -> villepassans;
 	colombiers -> aigne;
 	colombiers -> cebazan;
+	colombiers -> olonzac_1;
 	dio_et_vacquieres -> dio_et_vacquieres_2;
 	dio_et_vacquieres_2 -> octon;
 	dio_et_vacquieres_2 -> liausson;
@@ -70,10 +79,13 @@ digraph HeraultTelecom_WifiMax {
 	graissessac -> saint_gervais_sur_marre;
 	graissessac -> saint_gervais_sur_marre_2;
 	graissessac -> plaisance;
-	hameau_maniere -> aigne;
+
+	hameau_maniere [style=filled,fillcolor=yellow];
+	
 	hautfondbonne -> gallargues;
 	hautfondbonne -> tg_la_suque;
 	hautfondbonne -> saint_jean_de_cornies;
+	heraut_telecom -> castries;
 	heraut_telecom -> saint_christol;
 	jonquieres -> saint_andre_de_sangonis;
 	lauroux_poteau -> lauroux_eglise;
@@ -82,6 +94,7 @@ digraph HeraultTelecom_WifiMax {
 	le_cres -> sussargues;
 	le_cres -> dio_et_vacquieres;
 	le_cres -> castries;
+	le_pech [style=filled,fillcolor=yellow];
 	le_pech -> barbarie;
 	le_pouget -> le_pouget_2;
 	le_pouget -> le_pouget_3;
@@ -92,10 +105,14 @@ digraph HeraultTelecom_WifiMax {
 	lunas -> roqueredonde;
 	lunas -> cause;
 	lunas -> dio_et_vacquieres_2;
-	lunas_2_F -> boubals;
-	lunas_2_F -> tg_bousquet_d_orb;
+
+	lunas_2 [color=red];
+	lunas_2 -> boubals;
+	lunas_2 -> tg_bousquet_d_orb;
+	
+	marseillan [style=filled,color=red,fillcolor=yellow];
 	marseillan -> pop_colombiers;
-	marseillan -> villeveyrac;
+	marseillan -> meze
 	marseillan -> cazouls;
 	marseillan -> pinet;
 	massargues [color=red];
@@ -106,9 +123,15 @@ digraph HeraultTelecom_WifiMax {
 	mauguio -> saint_nazaire_de_pezan;
 	mauguio -> saint_genies_des_mourques;
 	maureilhan -> colombiers;
+	maureilhan -> pop_colombiers;
+	meze -> villeveyrac;
 	minerve -> boisset;
 	montagne_sainte_croix -> saint_vincent_d_olargues;
 	montblanc -> portiragnes;
+
+	montouliers [style=filled,fillcolor=lightskyblue];
+
+	mont_caramel [style=filled,fillcolor=yellow];
 	mont_caramel -> capestang;
 	mont_caramel -> montouliers;
 	murles -> montarnaud;
@@ -126,6 +149,8 @@ digraph HeraultTelecom_WifiMax {
 	plaissan -> mas_de_brouet;
 	plo_d_espluc -> fraisse_sur_agout;
 	plo_d_espluc -> cambon;
+
+	pop_colombiers [color=red];
 	pop_colombiers -> maureilhan;
 	pop_colombiers -> hameau_maniere;
 	prades_sur_vernazobre -> barbeau;
@@ -147,8 +172,12 @@ digraph HeraultTelecom_WifiMax {
 	saint_genies_des_mourques -> villetelle;
 	saint_genies_le_bas -> corneilhan_dechetterie;
 	saint_jean_de_fos -> puechabon;
+
+	saint_jean_minervois [style=filled,fillcolor=yellow];
 	saint_jean_minervois -> saint_martial;
 	saint_jean_minervois -> tour_pigeonnier;
+	saint_jean_minervois -> tg_pardailhan;
+	saint_jean_minervois -> barbarie;
 	saint_julien -> montagne_sainte_croix;
 	saint_pont_mauchiens -> peret_2;
 	saint_pont_mauchiens -> peret;
@@ -186,6 +215,9 @@ digraph HeraultTelecom_WifiMax {
 	tg_pardailhan -> saint_pons_candade;
 	tg_pardailhan -> corniou;
 	tg_pardailhan -> tg_verreries_de_moussan;
+	tg_pardailhan -> tour_pigeonnier;
+	tg_pardailhan -> pardailhan_2 [label="dif0"];
+
 	tg_pic_de_vissou -> les_montades;
 	tg_pic_saint_loup -> argeliers;
 	tg_pic_saint_loup -> les_matelles;
@@ -225,7 +257,9 @@ digraph HeraultTelecom_WifiMax {
 	villeneuvette -> tg_pic_de_vissou;
 	villepassans -> mont_caramel;
 	villepassans -> saint_jean_minervois;
-	villeveyrac -> meze;
+	villepassans -> le_pech;
+
+	villeveyrac [style=filled,fillcolor=yellow];
 	vinas -> lauroux_poteau;
 
 }
