@@ -129,7 +129,7 @@ label = "Wifimax Herault Nodes";
 	le_pech [style=filled,fillcolor=yellow];
 	le_pech -> barbarie;
 
-	le_poujet [style=filled,color=red,fillcolor=lightskyblue];
+	le_pouget [style=filled,color=red,fillcolor=lightskyblue];
 	le_pouget -> le_pouget_2;
 	le_pouget -> le_pouget_3;
 
