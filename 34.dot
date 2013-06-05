@@ -2,6 +2,7 @@ digraph HeraultTelecom_WifiMax {
 	aigne -> barfleur;
 	aigne -> le_pech;
 	aigne -> tg_pardailhan;
+	adissan [color=red];
 	adissan -> plaissan;
 	autignac -> puech_masse_fouzilhon;
 	autignac -> aigues_vives;
@@ -14,6 +15,7 @@ digraph HeraultTelecom_WifiMax {
 	babeau -> bouldoux;
 	barbarie -> minerve;
 	barbarie -> vellieux;
+	bedarieux_F [color=red];
 	bedarieux_F -> bedarieux_2;
 	bedarieux_F -> carlencas_et_levas;
 	bedarieux_2 -> taussac;	
@@ -38,6 +40,8 @@ digraph HeraultTelecom_WifiMax {
 	castelnau_le_lez -> saint_nazaire_de_pezan;
 	castelnau_le_lez -> saint_genies_des_mourques;
 	castries -> saint_christol;
+	castries -> heraut_telecom;
+	causse_de_la_selle [color=red];
 	causse_de_la_selle -> tg_saint_andre_de_bueges;
 	causse_de_la_selle -> brissac;
 	causse_de_la_selle -> hameau_frouzet;
@@ -70,7 +74,6 @@ digraph HeraultTelecom_WifiMax {
 	hautfondbonne -> gallargues;
 	hautfondbonne -> tg_la_suque;
 	hautfondbonne -> saint_jean_de_cornies;
-	heraut_telecom -> castries;
 	heraut_telecom -> saint_christol;
 	jonquieres -> saint_andre_de_sangonis;
 	lauroux_poteau -> lauroux_eglise;
@@ -95,6 +98,7 @@ digraph HeraultTelecom_WifiMax {
 	marseillan -> villeveyrac;
 	marseillan -> cazouls;
 	marseillan -> pinet;
+	massargues [color=red];
 	massargues -> notre_dame_de_londres;
 	massargues -> causse_de_la_selle;
 	massargues -> tg_pic_saint_loup;
@@ -125,6 +129,7 @@ digraph HeraultTelecom_WifiMax {
 	pop_colombiers -> maureilhan;
 	pop_colombiers -> hameau_maniere;
 	prades_sur_vernazobre -> barbeau;
+	puimission [color=red];
 	puimission -> autignac;
 	puimission -> servian;
 
@@ -135,6 +140,10 @@ digraph HeraultTelecom_WifiMax {
 	roqueredonde -> romiguieres;
 	saint_andre_de_sangonis -> arboras;
 	saint_andre_de_sangonis -> saint_jean_de_fos;
+
+	saint_georges_dorque [color=red];
+	saint_georges_dorque -> TG_Vic_Gardiole;
+
 	saint_genies_des_mourques -> villetelle;
 	saint_genies_le_bas -> corneilhan_dechetterie;
 	saint_jean_de_fos -> puechabon;
@@ -217,4 +226,5 @@ digraph HeraultTelecom_WifiMax {
 	villepassans -> saint_jean_minervois;
 	villeveyrac -> meze;
 	vinas -> lauroux_poteau;
+
 }
