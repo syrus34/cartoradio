@@ -1,10 +1,27 @@
+# Nodes for wifimax numherault DSP Herault France
+#
+# made by all email alerts to operators
+#
+# Legend :
+#
+# yellow : power by sun
+# blue   : power by erdf
+# red    : network by fiber
+#
+
 digraph HeraultTelecom_WifiMax {
+label = "Wifimax Herault Nodes";
+
 	aigne [style=filled,color=red,fillcolor=yellow];
 	aigne -> barfleur;
 	aigne -> le_pech;
 	aigne -> saint_jean_minervois;
 	adissan [color=red];
 	adissan -> plaissan;
+
+	argeliers [style=filled,fillcolor=yellow];
+
+	autignac [style=filled,fillcolor=lightskyblue];
 	autignac -> puech_masse_fouzilhon;
 	autignac -> aigues_vives;
 	autignac -> tg_la_coquillade;
@@ -12,16 +29,17 @@ digraph HeraultTelecom_WifiMax {
 	autignac -> montesquieu;
 	autignac -> saint_nazaire_de_ladarez;
 	autignac -> monstes;
+
 	avene -> servies;
 	babeau -> bouldoux;
-	barbarie -> minerve;
 
+	barbarie -> minerve;
 	barbarie -> saint_pons_candade;
 	barbarie -> corniou;
 	barbarie -> pardailhan_2;
 	barbarie -> tg_verreries_de_moussan;
 	
-	bedarieux [color=red];
+	bedarieux [style=filled,color=red,fillcolor=lightskyblue];
 	bedarieux -> bedarieux_2;
 	bedarieux -> carlencas_et_levas;
 	bedarieux_2 -> taussac;	
@@ -29,6 +47,8 @@ digraph HeraultTelecom_WifiMax {
 	boisset -> cassagnoles;
 	boisset -> cassagnoles_2;
 	boisset -> saussenac;
+
+	brissac [style=filled,fillcolor=yellow];
 	brissac -> montoulieu;
 	
 	capestang [style=filled,fillcolor=yellow];
@@ -44,12 +64,16 @@ digraph HeraultTelecom_WifiMax {
 	castelnau_de_guers -> aumes;
 	castelnau_de_guers -> nezignan_eveque;
 	castelnau_de_guers -> lezignan_la_cebe;
+
+	castelnau_le_lez [style=filled,fillcolor=lightskyblue];
 	castelnau_le_lez -> mauguio;
 	castelnau_le_lez -> le_cres;
 	castelnau_le_lez -> saint_christol;
+
+	castries [style=filled,fillcolor=lightskyblue];
 	castries -> saint_christol;
 	castries -> heraut_telecom;
-	causse_de_la_selle [color=red];
+	causse_de_la_selle [style=filled,color=red,fillcolor=lightskyblue];
 	causse_de_la_selle -> tg_saint_andre_de_bueges;
 	causse_de_la_selle -> brissac;
 	causse_de_la_selle -> hameau_frouzet;
@@ -75,6 +99,9 @@ digraph HeraultTelecom_WifiMax {
 	fraisse_sur_agout_2 -> salvetat_sur_agout_2;
 	fraisse_sur_agout_2 -> cambon;
 	fraisse_sur_agout_2 -> fraisse_sur_agout;
+
+	frontignan [style=filled,fillcolor=yellow];
+
 	graissessac -> castanet_le_haut;
 	graissessac -> saint_gervais_sur_marre;
 	graissessac -> saint_gervais_sur_marre_2;
@@ -82,24 +109,31 @@ digraph HeraultTelecom_WifiMax {
 
 	hameau_maniere [style=filled,fillcolor=yellow];
 	
+	hautfondbonne [style=filled,fillcolor=lightskyblue];
 	hautfondbonne -> gallargues;
 	hautfondbonne -> tg_la_suque;
 	hautfondbonne -> saint_jean_de_cornies;
-	heraut_telecom -> castries;
+
+	heraut_telecom [style=filled,fillcolor=lightskyblue];
 	heraut_telecom -> saint_christol;
 	jonquieres [color=red];
 	jonquieres -> saint_andre_de_sangonis;
 	lauroux_poteau -> lauroux_eglise;
 	le_causse -> joncels;
 	le_causse -> lunas;
+
+	le_cres [style=filled,fillcolor=lightskyblue];
 	le_cres -> sussargues;
 	le_cres -> dio_et_vacquieres;
 	le_cres -> castries;
 	le_pech [style=filled,fillcolor=yellow];
 	le_pech -> barbarie;
-	le_poujet [color=red];
+
+	le_poujet [style=filled,color=red,fillcolor=lightskyblue];
 	le_pouget -> le_pouget_2;
 	le_pouget -> le_pouget_3;
+
+	le_pouget_2 [style=filled,fillcolor=yellow];
 	le_pouget_2 -> aumelas;
 	lezignan_la_cebe -> cazouls_herault;
 	lodeve_2 -> les_plans;
@@ -124,6 +158,9 @@ digraph HeraultTelecom_WifiMax {
 	massargues -> hautfondbonne;
 	mauguio -> saint_nazaire_de_pezan;
 	mauguio -> saint_genies_des_mourques;
+
+	maurin [style=filled,fillcolor=lightskyblue];
+
 	maureilhan -> colombiers;
 	maureilhan -> pop_colombiers;
 	meze -> villeveyrac;
@@ -131,12 +168,21 @@ digraph HeraultTelecom_WifiMax {
 	montagne_sainte_croix -> saint_vincent_d_olargues;
 	montblanc -> portiragnes;
 
+	montoulieu [style=filled,fillcolor=lightskyblue];
+
 	montouliers [style=filled,fillcolor=lightskyblue];
 
 	mont_caramel [style=filled,fillcolor=yellow];
 	mont_caramel -> capestang;
 	mont_caramel -> montouliers;
+
+	moules_et_baucels [style=filled,fillcolor=lightskyblue];
+
 	murles -> montarnaud;
+
+	murviel_les_beziers [style=filled,fillcolor=yellow];
+
+	notre_dame_de_londres [style=filled,fillcolor=lightskyblue];
 	notre_dame_de_londres -> le_gue;
 	olmet_et_villecum -> le_puech;
 	olmet_et_villecum -> lavalette;
@@ -148,14 +194,18 @@ digraph HeraultTelecom_WifiMax {
 	peret_2 -> la_serre;
 	peret_2 -> adissan;
 	pinet -> pomerols;
+	plaissan [style=filled,fillcolor=lightskyblue];
 	plaissan -> mas_de_brouet;
 	plo_d_espluc -> fraisse_sur_agout;
 	plo_d_espluc -> cambon;
 
-	pop_colombiers [color=red];
+	pop_colombiers [style=filled,color=red,fillcolor=lightskyblue];
 	pop_colombiers -> maureilhan;
 	pop_colombiers -> hameau_maniere;
 	prades_sur_vernazobre -> barbeau;
+
+	portiragnes [style=filled,fillcolor=lightskyblue];
+
 	puimission [color=red];
 	puimission -> autignac;
 	puimission -> servian;
@@ -165,10 +215,12 @@ digraph HeraultTelecom_WifiMax {
 	
 	rieussec -> rieussec_2;
 	roqueredonde -> romiguieres;
+
+	saint_andre_de_sangonis [style=filled,fillcolor=lightskyblue];
 	saint_andre_de_sangonis -> arboras;
 	saint_andre_de_sangonis -> saint_jean_de_fos;
 
-	saint_georges_dorque [color=red];
+	saint_georges_dorque [style=filled,color=red,fillcolor=lightskyblue];
 	saint_georges_dorque -> TG_Vic_Gardiole;
 
 	saint_genies_des_mourques -> villetelle;
@@ -210,6 +262,7 @@ digraph HeraultTelecom_WifiMax {
 	tg_combesalat -> fraisse_sur_agout_2;
 	tg_combesalat -> plo_d_espluc;
 	tg_la_quille -> le_causse;
+	tg_la_quille -> avene;
 	tg_la_suque -> fontanes;
 	tg_la_suque -> vacquieres;
 	tg_naudech -> coustorgues;
@@ -221,6 +274,8 @@ digraph HeraultTelecom_WifiMax {
 	tg_pardailhan -> pardailhan_2 [label="dif0"];
 
 	tg_pic_de_vissou -> les_montades;
+
+	tg_pic_saint_loup [style=filled,fillcolor=yellow];
 	tg_pic_saint_loup -> argeliers;
 	tg_pic_saint_loup -> les_matelles;
 	tg_pic_saint_loup -> viols_le_fort;
@@ -236,6 +291,8 @@ digraph HeraultTelecom_WifiMax {
 	tg_rosis -> chapelle_saint_sauveur;
 	tg_rosis -> graissessac;
 	tg_rosis -> castanet_le_haut_2;
+
+	tg_saint_andre_de_bueges [style=filled,fillcolor=lightskyblue];
 	tg_saint_andre_de_bueges -> gornies;
 	tg_saint_andre_de_bueges -> moules_et_baucels;
 	tg_saint_andre_de_bueges -> pegairolles_de_bueges;
@@ -247,11 +304,11 @@ digraph HeraultTelecom_WifiMax {
 	tour_pigeonnier -> pardailhan;
 	tour_pigeonnier -> pardailhan_2;
 	
-	vailhauques [color=red];
+	vailhauques [style=filled,color=red,fillcolor=lightskyblue];
 	vailhauques -> murles;
 	vacquieres -> claret;
 	vezoles -> tg_combesalat;
-	villeneuve_les_maguelones [color=red];
+	villeneuve_les_maguelones [style=filled,color=red,fillcolor=lightskyblue];
 	villeneuve_les_maguelones -> frontignan;
 	villeneuve_les_maguelones -> maurin;
 	villeneuve_les_maguelones -> castelnau_le_lez;
