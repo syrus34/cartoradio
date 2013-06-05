@@ -87,6 +87,7 @@ digraph HeraultTelecom_WifiMax {
 	hautfondbonne -> saint_jean_de_cornies;
 	heraut_telecom -> castries;
 	heraut_telecom -> saint_christol;
+	jonquieres [color=red];
 	jonquieres -> saint_andre_de_sangonis;
 	lauroux_poteau -> lauroux_eglise;
 	le_causse -> joncels;
@@ -96,6 +97,7 @@ digraph HeraultTelecom_WifiMax {
 	le_cres -> castries;
 	le_pech [style=filled,fillcolor=yellow];
 	le_pech -> barbarie;
+	le_poujet [color=red];
 	le_pouget -> le_pouget_2;
 	le_pouget -> le_pouget_3;
 	le_pouget_2 -> aumelas;
