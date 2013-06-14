@@ -69,6 +69,7 @@ label = "Wifimax Herault Nodes";
 	castelnau_le_lez -> mauguio;
 	castelnau_le_lez -> le_cres;
 	castelnau_le_lez -> saint_christol;
+	castelnau_le_lez -> saint_gely;
 
 	castries [style=filled,fillcolor=lightskyblue];
 	castries -> saint_christol;
